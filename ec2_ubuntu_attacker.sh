@@ -9,5 +9,4 @@ sleep 10
 sudo usermod -aG docker root
 sleep 5
 
-sleep 45
-sudo docker run -d --rm --name demo-dvwa -d -p 8080:80 andrefernandes86/demo-apachestruts-attacker-web
+sudo docker run -d --rm --name demo-dvwa -d -p 80:80 andrefernandes86/demo-apachestruts-attacker-web
