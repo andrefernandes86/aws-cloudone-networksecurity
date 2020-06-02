@@ -7,15 +7,15 @@ Requirements:
 
 ## Phase1 - Demo Preparation
 - Create 2 new Linux Instances;
-- On the Advanced Options field, paste the script attacker-dvwas.sh and target-apachestruts.sh (1 script in each instance);
+- On the Advanced Options field, paste the script attacker.sh and target.sh (1 script in each instance);
 
 ## Phase2 - Testing the Demo
-- Connect on the Linux Instance where you executed the attacker-dvwa-ds script through http://public-ip
+- Connect on the Linux Instance where you executed the attacker script through http://public-ip
 
 -- username: administrator 
 -- password: password
 
-- Connect on the Linux Instance where you executed the target-apachestruts-ds script through http://public-ip
+- Connect on the Linux Instance where you executed the target script through http://public-ip
 
 ## Phase3 - Executing the Demo
 - Command Injection Menu
