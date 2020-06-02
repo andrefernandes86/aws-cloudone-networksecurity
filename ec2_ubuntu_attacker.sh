@@ -9,4 +9,5 @@ sleep 10
 sudo usermod -aG docker root
 sleep 5
 
+# Creating the attacker container
 sudo docker run -d --rm --name demo-dvwa -d -p 80:80 andrefernandes86/demo-apachestruts-attacker-web
