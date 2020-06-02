@@ -7,6 +7,8 @@ Requirements:
 
 ## Phase1 - Demo Preparation
 - Create 2 new Linux Instances;
+- The attacker instance must be placed in the same subnet of the bastion machine;
+- The target instance must be placed in the workload subnet;
 - On the Advanced Options field, paste the script attacker.sh and target.sh (1 script in each instance);
 
 ## Phase2 - Testing the Demo
