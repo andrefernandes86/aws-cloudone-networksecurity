@@ -4,6 +4,7 @@ Requirements:
 -- AWS Account
 -- NSVA Deployment (Terraform)
 -- 2 Ubuntu Linux Instances
+-- 1 Windows Instance
 
 ## Phase1 - Demo Preparation
 - Create 2 new Linux Instances;
@@ -17,7 +18,7 @@ Requirements:
 -- username: administrator 
 -- password: password
 
-- Connect on the Linux Instance where you executed the target script through http://public-ip
+- Connect on the Linux Instance where you executed the target script through http://private-ip (from the windows instance)
 
 ## Phase3 - Executing the Demo
 - Command Injection Menu
