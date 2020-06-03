@@ -8,17 +8,17 @@ Requirements:
 
 ## Phase1 - Demo Preparation
 - Create 2 new Linux Instances;
-- The attacker instance must be placed in the same subnet of the bastion machine;
-- The target instance must be placed in the workload subnet;
+- The attacker instance must be placed in the same subnet of the target machine;
 - On the Advanced Options field, paste the script attacker.sh and target.sh (1 script in each instance);
+- The Windows Instance should be places in the Internet VPC (with public ip)
 
-## Phase2 - Testing the Demo
-- Connect on the Linux Instance where you executed the attacker script through http://public-ip
+## Phase2 - Testing the Demo (Using the Windows Instance)
+- Connect on the Linux Instance where you executed the attacker script through http://private-ip
 
 -- username: administrator 
 -- password: password
 
-- Connect on the Linux Instance where you executed the target script through http://private-ip (from the windows instance)
+- Connect on the Linux Instance where you executed the target script through http://private-ip 
 
 ## Phase3 - Executing the Demo
 - Command Injection Menu
